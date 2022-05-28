@@ -144,7 +144,7 @@ body {
 }
 .infoAboutMeText {
     font-size: 14px;
-    margin: 24px 24px 0 32px;
+    margin: 24px 32px 0 32px;
     color: #d9d9d9;
 }
 .footerContainer {
@@ -185,4 +185,99 @@ body {
 }
 .footerLinkMargin {
     margin-left: 8px;
+}
+.headerMobileProfileContainer {
+    width: 95%;
+    margin: auto;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerMobileProfilePictureSection {
+    background-color: rgba(255, 255, 255, 0.07);
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: -100px 0 0 0;
+    z-index: 1;
+    position: relative;
+}
+.headerMobileProfilePictureContainer {
+    height: 144px;
+    width: 144px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.headerMobileProfilePicture {
+    height: 144px;
+    margin-left: -28px;
+}
+.headerMobileNameFullName {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+.headerMobileNameSubtitle {
+    font-size: 14px;
+    color: #909090;
+    text-align: center;
+    width: 80%;
+}
+@media screen and (max-width: 800px) {
+    .headerContainer {
+        height: 164px;
+        margin: 2.5% 0 0 0;
+    }
+    .headerProfileContainer {
+        display: none;
+    }
+    .headerNameContainer {
+        display: none;
+    }
+    .headerMobileProfileContainer {
+        display: flex;
+    }
+    .infoContainer {
+        flex-direction: column;
+        margin: 42px 0 0 0;
+    }
+    .infoDividerContainer {
+        width: 100%;
+        margin: 0;
+    }
+    .infoDividerContainerRight {
+        margin: 0 !important;
+    }
+    .infoAboutMeTitle {
+        margin: 32px 5% 0 5%;
+    }
+    .infoAboutMeText {
+        margin: 24px 5% 24px 5%;
+    }
+    .infoBoxContainerTop {
+        margin: 6px 0 0 0 !important;
+    }
+    .footerContainer {
+        flex-direction: column;
+        align-items: center;
+        padding: 16px;
+        height: auto;
+    }
+    .footerCopyrightContainer {
+        align-items: center;
+    }
+    .footerCopyrightTitle {
+        margin: 0;
+    }
+    .footerCopyrightSubtitle {
+        margin-left: 0;
+    }
+    .footerMediaContainer {
+        margin: 16px 0 0 0;
+        justify-content: center;
+    }
 }
