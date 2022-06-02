@@ -1,5 +1,11 @@
 var headerLogo = document.getElementsByClassName("headerLogo")[0]
 var headerProfilePictureSection = document.getElementsByClassName("headerProfilePictureSection")[0]
+var headerMobileProfilePicture = document.getElementsByClassName("headerMobileProfilePicture")[0]
+
+// Loading Profile Image
+window.addEventListener("load", function () {
+    headerMobileProfilePicture.style.display = "block"
+})
 
 // Profile Function
 function profileIn () {

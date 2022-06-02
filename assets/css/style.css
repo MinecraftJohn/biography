@@ -10,6 +10,38 @@ body {
     background: rgb(30,32,35);
     background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
 }
+#splashScreen {
+    width: 100%;
+    height: 100vh;
+    background: rgb(30,32,35);
+    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
+    position: fixed;
+    z-index: 99;
+    animation: splashScreen 4s forwards cubic-bezier(0.4, 0, 1, 1);
+}
+@keyframes splashScreen {
+    0%, 90% {height: 100vh;}
+    100% {height: 0vh; visibility: hidden;}
+}
+#splashScreenGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 46px 20px;
+    grid-row-gap: 14px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+#splashScreenLoadingAnimation {
+    margin: auto;
+    user-select: none;
+    -webkit-user-select: none;
+    pointer-events: none;
+}
+#splashScreenLoadingText {
+    font-size: 12px;
+}
 .bodySection {
     background: rgb(30,32,35);
     background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
@@ -211,10 +243,25 @@ body {
     width: 144px;
     border-radius: 100px;
     overflow: hidden;
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, .1) 0px, rgba(255, 255, 255, .2) 40px, rgba(255, 255, 255, .1) 80px);
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, .1) 0px, rgba(255, 255, 255, .2) 40px, rgba(255, 255, 255, .1) 80px);
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, .1) 0px, rgba(255, 255, 255, .2) 40px, rgba(255, 255, 255, .1) 80px);
+    background-size: 300px;
+    -webkit-animation: headerMobileProfilePictureContainer 2s infinite ease-out;
+            animation: headerMobileProfilePictureContainer 2s infinite ease-out;
+}
+@keyframes headerMobileProfilePictureContainer {
+    0% {
+      background-position: -32px;
+    }
+    40%, 100% {
+      background-position: 208px;
+    }
 }
 .headerMobileProfilePicture {
     height: 144px;
     margin-left: -28px;
+    display: none;
 }
 .headerMobileNameFullName {
     font-size: 22px;
@@ -228,6 +275,10 @@ body {
     width: 80%;
 }
 @media screen and (max-width: 800px) {
+    #splashScreenGrid {
+        top: 40%;
+        transform: translate(-50%, 0%);
+    }
     .headerContainer {
         height: 164px;
         margin: 2.5% 0 0 0;
