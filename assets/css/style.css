@@ -17,10 +17,10 @@ body {
     background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
     position: fixed;
     z-index: 99;
-    animation: splashScreen 4s forwards cubic-bezier(0.4, 0, 1, 1);
+    animation: splashScreen 2.7s forwards cubic-bezier(0.4, 0, 1, 1);
 }
 @keyframes splashScreen {
-    0%, 90% {height: 100vh;}
+    0%, 83% {height: 100vh;}
     100% {height: 0vh; visibility: hidden;}
 }
 #splashScreenGrid {
@@ -176,7 +176,7 @@ body {
 }
 .infoAboutMeText {
     font-size: 14px;
-    margin: 24px 32px 0 32px;
+    margin: 24px 32px 32px 32px;
     color: #d9d9d9;
 }
 .footerContainer {
