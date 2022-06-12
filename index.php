@@ -38,10 +38,8 @@
     </head>
     <body>
         <div id="splashScreen">
-            <div id="splashScreenGrid">
-                <img src="assets/images/loading-animation.gif" alt="Downloading resources, please wait." id="splashScreenLoadingAnimation">
-                <p id="splashScreenLoadingText">Loading resources</p>
-            </div>
+            <div id="splashScreenLoading"></div>
+            <p id="splashScreenLoadingText">Loading resources</p>
         </div>
         <div class="bodySection">
             <div class="pageSection">
