@@ -4,7 +4,7 @@
 </a>
 <br>
 <br>
-Site: https://minecraftjohn.github.io/<br>
+Site: http://minecraftjohn-biography.epizy.com/<br>
 <br>
 <img src="https://github.com/MinecraftJohn/WEB-Biography/blob/4L-WEB-Biography/assets/images/repository-webpreview.png?raw=true">
 This project is for my school subject WEB 241<br>
