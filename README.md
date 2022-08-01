@@ -1,6 +1,6 @@
 <h2>My Biography Web Project Repository</h2>
 <a href="https://minecraftjohn.github.io/WEB-7-Eleven/" target="_blank" rel="noopener noreferrer">
-     <img src="https://raw.githubusercontent.com/MinecraftJohn/pinoylifecraft.com/1e9142fe524a13191ae19244be5da81daa016bf9/resources/repositry-status/repository-status-active.svg">
+     <img src="https://raw.githubusercontent.com/MinecraftJohn/pinoylifecraft.com/1e9142fe524a13191ae19244be5da81daa016bf9/resources/repositry-status/repository-status-inactive.svg">
 </a>
 <br>
 <br>
