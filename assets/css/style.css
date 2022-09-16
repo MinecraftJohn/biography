@@ -5,56 +5,25 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
+
 body {
     height: 100vh;
-    background: rgb(30,32,35);
-    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
+    background: rgb(30, 32, 35);
+    background: linear-gradient(135deg, rgba(30, 32, 35, 1) 0%, rgba(26, 32, 52, 1) 50%, rgba(28, 32, 46, 1) 100%);
 }
-#splashScreen {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: rgb(30,32,35);
-    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
-    z-index: 99;
-    animation: splashScreen 2.7s forwards cubic-bezier(0.4, 0, 1, 1);
-}
-@keyframes splashScreen {
-    0%, 83% {height: 100vh;}
-    100% {height: 0vh; visibility: hidden;}
-}
-#splashScreenLoading {
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-    border-top: #0075c3 solid 4px;
-    border-right: #0075c3 solid 4px;
-    border-bottom: #0075c3 solid 4px;
-    border-left: rgba(255, 255, 255, 0.1) solid 4px;
-    margin-bottom: 12px;
-    animation: splashScreenLoading .7s linear infinite;
-}
-@keyframes splashScreenLoading {
-    0% {transform: rotate(0deg);}
-    100% {transform: rotate(360deg);}
-}
-#splashScreenLoadingText {
-    font-size: 13px;
-}
+
 .bodySection {
-    background: rgb(30,32,35);
-    background: linear-gradient(135deg, rgba(30,32,35,1) 0%, rgba(26,32,52,1) 50%, rgba(28,32,46,1) 100%);
+    background: rgb(30, 32, 35);
+    background: linear-gradient(135deg, rgba(30, 32, 35, 1) 0%, rgba(26, 32, 52, 1) 50%, rgba(28, 32, 46, 1) 100%);
     width: 100%;
 }
+
 .pageSection {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .headerContainer {
     background-image: url(../images/polygon.png);
     background-color: rgba(255, 255, 255, 0.04);
@@ -66,15 +35,17 @@ body {
     overflow: hidden;
     position: relative;
 }
+
 .headerProfileContainer {
-    background: rgb(30,32,35);
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 75%);
+    background: rgb(30, 32, 35);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 75%);
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
 }
+
 .headerLogo {
     position: absolute;
     right: 64px;
@@ -82,6 +53,7 @@ body {
     transform: translateY(-50%) scale(1);
     transition: transform .3s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
+
 .headerProfilePictureSection {
     background-color: rgba(255, 255, 255, 0.07);
     width: 180px;
@@ -96,16 +68,19 @@ body {
     justify-content: center;
     transition: transform .3s ease-out;
 }
+
 .headerProfilePictureContainer {
     height: 144px;
     width: 144px;
     border-radius: 100px;
     overflow: hidden;
 }
+
 .headerProfilePicture {
     height: 144px;
     margin-left: -28px;
 }
+
 .headerNameContainer {
     position: absolute;
     left: 0;
@@ -117,32 +92,39 @@ body {
     justify-content: center;
     padding-left: 64px;
 }
+
 .headerNameFullName {
     font-size: 26px;
     font-weight: 500;
 }
+
 .headerNameSubtitle {
     margin-top: 4px;
     color: #909090;
     font-weight: 500;
 }
+
 .infoContainer {
     width: 1064px;
     max-width: 95%;
     margin: 32px 0 0 0;
     display: flex;
 }
+
 .infoDividerContainer {
     width: 100%;
     margin: 0 8px 0 0;
 }
+
 .infoDividerContainerLeft {
     background-color: rgba(255, 255, 255, 0.05);
     border-radius: 8px;
 }
+
 .infoDividerContainerRight {
     margin: 0 0 0 8px !important;
 }
+
 .infoBoxContainer {
     background-color: rgba(255, 255, 255, 0.05);
     width: 100%;
@@ -153,35 +135,37 @@ body {
     align-items: center;
     margin: 6px 0 0 0;
 }
+
 .infoBoxContainerTop {
     margin: 0 !important;
 }
+
 .infoBoxContainer:hover {
     background-color: rgba(255, 255, 255, 0.065);
 }
-.infoBoxIcon {
-    width: 18px;
-    -webkit-user-select: none;
-    user-select: none;
-}
+
 .infoBoxTextTitle {
     font-size: 14px;
     margin-left: 24px;
 }
+
 .infoBoxTextInfo {
     font-size: 11px;
     margin-left: 24px;
     color: #CECFD1;
 }
+
 .infoAboutMeTitle {
     font-weight: 500;
     margin: 32px 24px 0 32px;
 }
+
 .infoAboutMeText {
     font-size: 14px;
     margin: 24px 32px 32px 32px;
     color: #d9d9d9;
 }
+
 .footerContainer {
     background-color: rgba(255, 255, 255, 0.05);
     width: 1064px;
@@ -191,6 +175,7 @@ body {
     border-radius: 8px;
     display: flex;
 }
+
 .footerCopyrightContainer {
     height: 100%;
     width: 100%;
@@ -198,15 +183,18 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+
 .footerCopyrightTitle {
     font-size: 14px;
     margin-left: 32px;
 }
+
 .footerCopyrightSubtitle {
     font-size: 11px;
     color: #CECFD1;
     margin-left: 32px;
 }
+
 .footerMediaContainer {
     height: 100%;
     width: 100%;
@@ -214,13 +202,13 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    gap: 12px;
 }
+
 .footerLinks {
     display: flex;
 }
-.footerLinkMargin {
-    margin-left: 8px;
-}
+
 .headerMobileProfileContainer {
     width: 95%;
     margin: auto;
@@ -229,6 +217,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .headerMobileProfilePictureSection {
     background-color: rgba(255, 255, 255, 0.07);
     width: 180px;
@@ -241,6 +230,7 @@ body {
     z-index: 1;
     position: relative;
 }
+
 .headerMobileProfilePictureContainer {
     height: 144px;
     width: 144px;
@@ -251,32 +241,38 @@ body {
     background-image: linear-gradient(90deg, rgba(255, 255, 255, .1) 0px, rgba(255, 255, 255, .2) 40px, rgba(255, 255, 255, .1) 80px);
     background-size: 300px;
     -webkit-animation: headerMobileProfilePictureContainer 2s infinite ease-out;
-            animation: headerMobileProfilePictureContainer 2s infinite ease-out;
+    animation: headerMobileProfilePictureContainer 2s infinite ease-out;
 }
+
 @keyframes headerMobileProfilePictureContainer {
     0% {
-      background-position: -32px;
+        background-position: -32px;
     }
-    40%, 100% {
-      background-position: 208px;
+    40%,
+    100% {
+        background-position: 208px;
     }
 }
+
 .headerMobileProfilePicture {
     height: 144px;
     margin-left: -28px;
     display: none;
 }
+
 .headerMobileNameFullName {
     font-size: 22px;
     font-weight: 500;
     margin-top: 4px;
 }
+
 .headerMobileNameSubtitle {
     font-size: 14px;
     color: #909090;
     text-align: center;
     width: 80%;
 }
+
 @media screen and (max-width: 800px) {
     .headerContainer {
         height: 164px;
