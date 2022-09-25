@@ -2,7 +2,7 @@
 This project is a school performance project for subject WEB 241. Its main purpose is to improve my web development skill.
 <br><br>
 <kbd>
-     <img src="https://raw.githubusercontent.com/MinecraftJohn/MinecraftJohn/main/assets/other-repository/biography/preview%20screenshot.png" alt="Repository Preview Screenshot">
+     <img src="https://raw.githubusercontent.com/MinecraftJohn/MinecraftJohn/main/assets/other-repository/biography/biography%20web%20preview.png" alt="Repository Preview Screenshot">
 </kbd>
 <br><br>
 This was a challenging project because making a sentence to introduce something was my weakness just like making this readme file 😁. This project challenge me to try inline SVG on a webpage and modern responsive design. The design was inpired by Windows 11 darkmode theme and because of this project I was forced to make my very own logo. I was able to implement a PHP array on this project since the professor required so. It is also based on database so the server side basic function was applied while I was coding.
