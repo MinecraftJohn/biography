@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Biography (John M. Napoles)</title>
-        <link rel="shortcut icon" href="assets/images/logo-john.png" type="image/x-icon">
+        <link rel="shortcut icon" href="assets/svg/favicon.svg" type="image/x-icon">
         <link rel="stylesheet" href="assets/css/style.css">
         <script src="assets/js/script.js" defer></script>
         <meta name="theme-color" content="#1c202e"/>
