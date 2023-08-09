@@ -25,12 +25,12 @@
                             <br><br>
                             <?php echo "With his creation of Pinoy LifeCraft a Minecraft server, ".$myFullName['FirstName'].
                             " made the player's childhood fun and memorable. At the age of 13, ".$myFullName['FirstName'].
-                            " started playing Minecraft and that's where he started to learned the scripting a Minecraft server. 
+                            " started playing Minecraft and that's where he started to learn the managing a Minecraft server. 
                             Until then, ".$myFullName['FirstName']." inpired by coding and he started creating his first 
-                            website at the age of 16. He dreamed of having his very own Minecraft plugins for his server."; ?>
+                            website for the server at the age of 16 using a website builder. With self-taught his dream server website was built last 2020."; ?>
                             <br><br>
                             His natural curiosity led him to the programming world. 
-                            He is currently now on Computer Engineering course to acheive his dream project sooner.
+                            He graduated Diploma in Engineering Technology Computer Engineering and already built some projects.
                         </p>
                     </div>
                     <div class="infoDividerContainer infoDividerContainerRight">
