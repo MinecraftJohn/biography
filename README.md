@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://i.imgur.com/AcIFRYC.png" alt="Biography - John Logo"/>
+  <img src="https://i.imgur.com/KFQAdd8.png" alt="Biography - John Logo"/>
   <h1>Biography (John Napoles)</h1>
 </div>
 
